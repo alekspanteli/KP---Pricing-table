@@ -1,7 +1,6 @@
-@use '../abstracts/colors';
-@use '../abstracts/fonts';
+@use '../abstracts' as *;
 
 .card {
-  font-size: fonts.$font-size;
-  color: colors.$blue;
+  font-size: $font-size;
+  color: $red;
 }
